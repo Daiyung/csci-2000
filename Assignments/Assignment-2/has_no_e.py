@@ -8,7 +8,7 @@ def has_no_e(input_string):
         #print('There is no e in the string')
         return True
 
-reader = open('test.txt', 'r')
+reader = open('gadsby_stripped.txt', 'r')
 contents = reader.readlines()
 for line in contents:
     in_string = reader.readline()
